@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-section {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.header-text {
+    color: sandybrown;
+    font-family: 'Nerko One';
+}
+
+.title-section {
+padding-top: 60px;
+}
+
+.title-category {
+    color: grey;
+    font-size: 0.5rem;
+}
+
+.title {
+    font-size: 0.8rem;
+}
+
+.top-section-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    position: relative;
+}
+
+.synthesis {
+    padding: 10px 30px 30px;
+}
+
+img .tiramisu {
+    position: relative;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.presentation {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+hr {
+color: sandybrown;
+width: 60px;
+margin-top: 10px;
+}
+
+.paragraph-section{
+    margin-top: 30px
+}
